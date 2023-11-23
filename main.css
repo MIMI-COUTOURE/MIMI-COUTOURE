@@ -1,0 +1,279 @@
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;	
+            background:#A48E41;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        header #logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        header #search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        header input[type="text"] {
+            padding: 8px;
+            margin-right: 10px;
+        }
+
+        header button {
+            padding: 10px;
+            background-color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hero {
+
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .collections {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .collection-categories {
+            flex-basis: 30%;
+        }
+
+        .collection-images {
+            flex-basis: 65%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .collection-images img {
+            width: 200px; 
+            height: auto; 
+        } 
+
+
+        .product-page {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .product-image {
+            flex-basis: 40%;
+        }
+        .product-image img {
+            width: 200px; 
+            height: auto;
+        }
+
+        .product-details {
+            flex-basis: 55%;
+        }
+
+        .related-products {
+            padding: 50px;
+        }
+        .related-products img{
+            width: 200px;
+            height: 320px;   
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        .product-image{
+            height:auto;
+        }
+        .about-us-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .about-us-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .about-us-section p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+        }
+        img{
+            height:400px;
+            width:350px;
+        }
+.collections-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .collections-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .collection-category {
+            margin: 20px 0;
+        }
+
+        .collection-category h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .collection-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .collection-images img {
+            width: 200px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .blog-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .blog-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .blog-post {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .blog-post h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+         .contact-section {
+                padding: 50px;
+                text-align: center;
+            }
+    
+            .contact-section h2 {
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+    
+            .contact-info {
+                margin: 20px 0;
+                text-align: left;
+            }
+    
+            .contact-info p {
+                font-size: 16px;
+                line-height: 1.5;
+                color: #333;
+                margin-bottom: 10px;
+            }
+    
+            .contact-form {
+                max-width: 600px;
+                margin: 0 auto;
+                text-align: left;
+            }
+    
+            .contact-form label {
+                font-size: 16px;
+                display: block;
+                margin-bottom: 8px;
+            }
+    
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+    
+            .contact-form button {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+
+
+                }
+        #name{
+            margin-left: 80px;
+        }
+        #email{
+            margin-left: 80px;
+        }
+        #message{
+            margin-left: 80px;
+        }
